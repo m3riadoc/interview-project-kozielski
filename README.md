@@ -1,6 +1,6 @@
 # Mountain Explorer - Technical Interview for Frontend Developer
 
- https://angelesmountains.netlify.app
+ 
 
 
 ## Preview 
