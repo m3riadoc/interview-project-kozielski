@@ -67,8 +67,7 @@
 .swiper-slide {
   display: flex;
   justify-content: center;
-  flex-shrink: 0;
-  width: 100%;
+  flex-shrink: 0;;
   height: 100%;
   position: relative;
   transition-property: transform;

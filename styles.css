@@ -1,11 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 
+
+@media (max-width: 768px) {
+    .phone-hidden{
+  display: none;
+}
+}
+
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: "Lato", sans-serif;
 }
+
 
 header {
   background-image: url("background.png");
@@ -110,6 +119,7 @@ padding-top: 10px;
 
 
 
+
 footer{
     height: 50px;
     display: flex;
@@ -168,6 +178,12 @@ footer p{
 }
 
 
+.accordion-body{
+  height: 300px;
+  display: flex;
+  align-items: center;
+}
+
 .accordion-button{
     font-weight: 600;
     
@@ -175,8 +191,8 @@ footer p{
 
 
 #accordionItem1{
-    background-image: url('/images/snow-peak.png');
-    background-position: 70%;
+    background-image: url('/images/mountain1.png');
+    background-position: 85%;
    
 }
 
@@ -188,7 +204,7 @@ footer p{
 
 
 #accordionItem2{
-    background-image: url('/images/photo-1414449381078-c7768.png');
+    background-image: url('/images/mountain2.png');
     background-position: 60%;
     
     
@@ -235,22 +251,38 @@ header nav a{
   font-size: 18px;
 }
 
+.section2-text{
+  margin-top: 20px;
+  font-size: 18px;
+}
 
-.section-3,
-  .section-3 * {
-    /* Resetuje lub nadpisuje style */
-    all: unset;
-    /* Możesz tutaj dodać własne style resetujące lub domyślne */
-  }
+
+.container{
+  display: none;
 }
 
 .accordion-header{
   all: unset;
 }
 
-
-
+.tab-bg1 {
+  background-image: url(/images/mountain1.png);
+  height: 700px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+.tab-bg2 {
+  background-image: url(/images/mountain2.png);
+   height: 700px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+}
 
 @media (min-width: 1200px) {
-
+.container{
+  display: none;
+}
 }

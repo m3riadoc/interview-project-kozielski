@@ -34,7 +34,12 @@
         <a href="/index.html">
           <img class="section-1-logo" src="/images/logo.svg" width="30"
         /></a>
-        <img  class="section-1-text" src="/images/losangeles_mountains.png" width="70" height="30" />
+        <img
+          class="section-1-text"
+          src="/images/losangeles_mountains.png"
+          width="70"
+          height="30"
+        />
       </div>
       <nav>
         <a href="#section1 "> 01. HISTORY </a>
@@ -100,58 +105,125 @@
         viverra, rutrum erat rutrum, consectetur mi. Proin at maximus est.
       </p>
 
-      <div class="container"></div>
-      <div class="accordion accordion-flush" id="accordionExample">
-        <div class="accordion-item" id="accordionItem1">
-          <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-            <button
-              class="accordion-button"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#collapseOne"
-              aria-expanded="true"
-              aria-controls="collapseOne"
-            >
-              MOUNTAIN 1
-            </button>
-          </h2>
+      <div class="phone-hidden">
+        <div class="tab-container">
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link active"
+                id="mountain1-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#mountain1"
+                type="button"
+                role="tab"
+                aria-controls="mountain1"
+                aria-selected="true"
+              >
+                Mountain 1
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="mountain2-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#mountain2"
+                type="button"
+                role="tab"
+                aria-controls="mountain2"
+                aria-selected="false"
+              >
+                Mountain 2
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div class="tab-content tab-bg1" id="myTabContent">
           <div
-            id="collapseOne"
-            class="accordion-collapse collapse show"
-            aria-labelledby="headingOne"
-            data-bs-parent="#panelsStayOpen-accordionExample"
+            class="tab-pane fade show active"
+            id="mountain1"
+            role="tabpanel"
+            aria-labelledby="mountain1-tab"
           >
-            <div class="accordion-body">
-              <img src="/images/schedule-content.png" width="300" />
+            <div class="schedule-container">
+              <img src="/images/schedule-content.png" alt="" class="schedule" />
+            </div>
+          </div>
+          <div
+            class="tab-pane fade tab-bg2"
+            id="mountain2"
+            role="tabpanel"
+            aria-labelledby="mountain2-tab"
+          >
+            <div class="schedule-container">
+              <img src="/images/schedule-content.png" alt="" class="schedule" />
             </div>
           </div>
         </div>
-        <div class="accordion-item" id="accordionItem2">
-          <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-            <button
-              class="accordion-button collapsed"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#collapseTwo"
-              aria-expanded="false"
-              aria-controls="collapseTwo"
+      </div>
+
+      <div class="container">
+        <div class="accordion accordion-flush" id="accordionExample">
+          <div class="accordion-item" id="accordionItem1">
+            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                MOUNTAIN 1
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              aria-labelledby="headingOne"
+              data-bs-parent="#panelsStayOpen-accordionExample"
             >
-              MOUNTAIN 2
-            </button>
-          </h2>
-          <div
-            id="collapseTwo"
-            class="accordion-collapse collapse"
-            aria-labelledby="headingTwo"
-            data-bs-parent="#panelsStayOpen-accordionExample"
-          >
-            <div class="accordion-body accordeonBackground2">
-              <img src="/images/schedule-content.png" width="300" />
+              <div class="accordion-body">
+                <img
+                  src="/images/schedule-content.png"
+                  width="270"
+                  height="180"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item" id="accordionItem2">
+            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                MOUNTAIN 2
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTwo"
+              data-bs-parent="#panelsStayOpen-accordionExample"
+            >
+              <div class="accordion-body accordeonBackground2">
+                <img
+                  src="/images/schedule-content.png"
+                  width="270"
+                  height="180"
+                />
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+
     <footer>
       <div>
         <a href="/index.html">
