@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="/swiper.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-top">
+        <div>
+          <a href="/index.html">
+            <img class="header-logo" src="/images/logo.svg" width="40" />
+          </a>
+        </div>
+        <nav>
+          <a href="#section1"> 01. HISTORY </a>
+          <a href="#section3"> 02. TEAM</a>
+        </nav>
+      </div>
+    </header>
+
+    <section id="section1" class="section-1">
+      <div class="section-1-header">
+        <a href="/index.html">
+          <img class="section-1-logo" src="/images/logo.svg" width="30"
+        /></a>
+        <img  class="section-1-text" src="/images/losangeles_mountains.png" width="70" height="30" />
+      </div>
+      <nav>
+        <a href="#section1 "> 01. HISTORY </a>
+        <a href="#section3 "> 02. TEAM</a>
+      </nav>
+    </section>
+
+    <section id="section2" class="section-2">
+      <img
+        class="section-2-history"
+        src="/images/01history.png"
+        width="200px"
+      />
+      <p class="section2-text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in ante
+        viverra, rutrum erat rutrum, consectetur mi. Proin at maximus est.
+        Nullam purus ex, iaculis sed erat sed, blandit tincidunt quam. Cras
+        scelerisque id quam sed dignissim Pellentesque urna nunc, gravida quis
+        hendrerit ac, tristique ut quam. Vivamus suscipit dignissim tortor nec
+        congue
+      </p>
+      <div class="swiper-container">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="/images/rectangle_23_copy.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-slide">
+                <img src="/images/rectangle_23.jpg" alt="" />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-slide">
+                <img src="/images/rectangle_23_copy.jpg" alt="" />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-slide">
+                <img src="/images/rectangle_23.jpg" alt="" />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-slide">
+                <img src="/images/rectangle_23_copy.jpg" alt="" />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-slide">
+                <img src="/images/rectangle_23.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="section3" class="section-3">
+      <img class="section-2-history" src="/images/02climb.png" width="200px" />
+      <p class="section3-text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in ante
+        viverra, rutrum erat rutrum, consectetur mi. Proin at maximus est.
+      </p>
+
+      <div class="container"></div>
+      <div class="accordion accordion-flush" id="accordionExample">
+        <div class="accordion-item" id="accordionItem1">
+          <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+            >
+              MOUNTAIN 1
+            </button>
+          </h2>
+          <div
+            id="collapseOne"
+            class="accordion-collapse collapse show"
+            aria-labelledby="headingOne"
+            data-bs-parent="#panelsStayOpen-accordionExample"
+          >
+            <div class="accordion-body">
+              <img src="/images/schedule-content.png" width="300" />
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item" id="accordionItem2">
+          <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+            >
+              MOUNTAIN 2
+            </button>
+          </h2>
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingTwo"
+            data-bs-parent="#panelsStayOpen-accordionExample"
+          >
+            <div class="accordion-body accordeonBackground2">
+              <img src="/images/schedule-content.png" width="300" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div>
+        <a href="/index.html">
+          <img
+            class="footer-logo"
+            src="/images/vector_smart_object.png"
+            width="30"
+        /></a>
+        <img src="/images/losangeles_mountains.png" width="70" height="30" />
+      </div>
+      <p>COPYRIGHT 2016. ALL RIGHTS RESERVED</p>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="/script.js"></script>
+  </body>
+</html>

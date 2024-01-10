@@ -1,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+header {
+  background-image: url("background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position: 40%;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+}
+
+h3{
+    font-size: 10px;
+    padding-left: 20px;
+}
+
+
+header nav a{
+    font-size: 12px;
+    font-style: italic;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 20px;
+    text-decoration: underline;
+}
+
+.header-top {
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-1 {
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.section-1 nav{
+    display: flex;
+    align-items: center;
+}
+
+.section-1 nav a{
+    font-size: 12px;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 600;
+    text-decoration: underline;
+    font-style: italic;
+    color: #414f6b;
+}
+
+.section-1-header {
+  display: flex;
+  gap: 10px;
+}
+
+.section-1-logo {
+  border: 1px solid grey;
+  border-radius: 50%;
+}
+
+.section-2 {
+  background-image: url("/images/Bg.png");
+  height: 100vh;
+  background-position: 10%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+}
+
+.section2-text{
+    margin-left: 10px;
+}
+
+.photos {
+  display: flex;
+}
+
+.section-2-history {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.section-3{
+padding-top: 10px;
+}
+
+.section3-text{
+  margin-left: 10px;
+}
+
+
+
+footer{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    align-items: center;
+    background-color: #414f6b;
+}
+
+footer div{
+    display: flex;
+    gap: 10px;
+    
+    
+}
+
+.footer-logo{
+    border: 1px solid grey;
+  border-radius: 50%;
+}
+
+footer p{
+    padding-top: 15px;
+    font-size: 11px;
+    padding-left: 20px;
+    color: #63769d;
+    font-style: italic;
+}
+
+
+
+
+/*SWIPER*/
+
+
+.swiper-container {
+    background-color: rgba(65, 79, 107, 0.8); 
+    height: 200px;
+    margin-bottom: 40px;
+    margin-top: auto;
+    
+}
+
+
+
+/*END OF SWIPER */
+
+
+
+/*ACCORDION*/
+
+
+
+.container{
+    padding-top: 40px;
+}
+
+
+.accordion-button{
+    font-weight: 600;
+    
+}
+
+
+#accordionItem1{
+    background-image: url('/images/snow-peak.png');
+    background-position: 70%;
+   
+}
+
+#accordionItem1 img{
+    display: block;
+    margin-left: -10px;
+}
+
+
+
+#accordionItem2{
+    background-image: url('/images/photo-1414449381078-c7768.png');
+    background-position: 60%;
+    
+    
+}
+
+#accordionItem2 img{
+    display: block;
+    margin-left: -10px;
+}
+
+/*END OF ACCORDION*/
+
+
+
+/*MEDIA QUERY */
+
+@media (min-width: 768px) and (max-width: 1199px) {
+
+header nav a{
+    font-size: 18px;
+    
+}
+.header-logo{
+   width: 50px; 
+    height: auto; 
+}
+
+.section-1-header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-1-logo{
+  width: 50px;
+}
+
+.section-1-text{
+  width: 100px;
+  height: 40px;
+}
+
+.section-1 nav a{
+  font-size: 18px;
+}
+
+
+.section-3,
+  .section-3 * {
+    /* Resetuje lub nadpisuje style */
+    all: unset;
+    /* Możesz tutaj dodać własne style resetujące lub domyślne */
+  }
+}
+
+.accordion-header{
+  all: unset;
+}
+
+
+
+
+@media (min-width: 1200px) {
+
+}
