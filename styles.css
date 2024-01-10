@@ -96,7 +96,7 @@ header nav a{
 }
 
 .section-2 {
-  background-image: url("/images/Bg.png");
+  background-image: url("images/Bg.png");
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -223,7 +223,7 @@ footer p{
 
 
 #accordionItem1{
-    background-image: url('/images/mountain1.png');
+    background-image: url('images/mountain1.png');
     background-position: 85%;
    
 }
@@ -236,7 +236,7 @@ footer p{
 
 
 #accordionItem2{
-    background-image: url('/images/mountain2.png');
+    background-image: url('images/mountain2.png');
     background-position: 60%;
     
     
@@ -333,7 +333,7 @@ padding-top: 20px;
   padding-left: 50px;
 }
 .tab-bg1 {
-  background-image: url(/images/mountain1.png);
+  background-image: url(images/mountain1.png);
   height: 700px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -341,7 +341,7 @@ padding-top: 20px;
   
 }
 .tab-bg2 {
-  background-image: url(/images/mountain2.png);
+  background-image: url(images/mountain2.png);
    height: 700px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -420,7 +420,7 @@ header {
 }
 
 .section-2 {
-  background-image: url("/images/Bg.png");
+  background-image: url("images/Bg.png");
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -465,7 +465,7 @@ padding-top: 20px;
   padding-left: 50px;
 }
 .tab-bg1 {
-  background-image: url(/images/mountain1.png);
+  background-image: url(images/mountain1.png);
   height: 700px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -473,7 +473,7 @@ padding-top: 20px;
   
 }
 .tab-bg2 {
-  background-image: url(/images/mountain2.png);
+  background-image: url(images/mountain2.png);
   height: 700px;
   background-size: cover;
   background-repeat: no-repeat;
