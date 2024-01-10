@@ -330,7 +330,7 @@
   content: "next";
 }
 .swiper-pagination {
-  margin-top: 20px;
+  margin-top: 30px;
   text-align: center;
   transition: 0.3s opacity;
   transform: translate3d(0, 0, 0);
